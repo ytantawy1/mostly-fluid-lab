@@ -1,0 +1,46 @@
+header {
+    background-color: #808080;
+}
+
+.section-1 {
+   float: left;
+    width: 50%;
+}
+
+section {
+    font-size:1rem;
+    line-height: 1.688rem;
+}
+
+header p {
+    font-size: 1rem;
+    line-height: 1.688rem;
+}
+
+.section-1 {
+    background-color: #D3D3D3;
+}
+
+.section-2 {
+    background-color: #E1D9D1;
+}
+
+header, .section-1, .section-2 {
+    margin: 10px auto;
+    width: 984px;
+    padding: 10px auto;
+    overflow: hidden;
+}
+
+@media screen and (max-width:1306px) {
+    section {
+        width:100%;
+    }
+}
+
+@media screen and (max-width:984px) {
+    section {
+        width: 100%;
+    }
+}
+
